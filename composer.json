@@ -1,0 +1,27 @@
+{
+  "name": "georgetown-university/stop-auto-updates",
+  "description": "A WP mu-plugin that prevents the automatic updating of plugins and themes.",
+  "minimum-stability": "stable",
+  "type": "wordpress-muplugin",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "David Dashifen Kees (they/them)",
+      "email": "dashifen@dashifen.com",
+      "role": "developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Dashifen\\WordPress\\Plugins\\MustUse\\StopAutoUpdates\\": "/src"
+    }
+  },
+  "require": {
+    "php": ">=8.2",
+    "dashifen/wp-handler": "^11.0"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  }
+}
