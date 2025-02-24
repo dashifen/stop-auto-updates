@@ -1,5 +1,5 @@
 {
-  "name": "georgetown-university/stop-auto-updates",
+  "name": "dashifen/stop-auto-updates",
   "description": "A WP mu-plugin that prevents the automatic updating of plugins and themes.",
   "minimum-stability": "stable",
   "type": "wordpress-muplugin",
